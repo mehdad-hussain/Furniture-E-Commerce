@@ -1,0 +1,363 @@
+body {
+  font-family: "Mali", cursive, serif;
+  color: black;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.text-slanted {
+  font-family: "Calligraffitti", cursive;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  border: none;
+  font-size: 2.2rem;
+  color: #fdbe02 !important;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  border-bottom: 0.1rem solid white;
+}
+
+.active {
+  border-bottom: 0.1rem solid #fdbe02;
+}
+
+.navbar-icons {
+  font-size: 1.6rem;
+}
+
+.navbar-cart-icon {
+  color: black;
+  position: relative;
+}
+
+.navbar-cart-icon:hover {
+  color: #9b9999;
+}
+
+.cart-items {
+  color: white;
+  position: absolute;
+  top: -15%;
+  right: -25%;
+  padding: 0.2rem 0.3rem;
+  background-color: #fdbe02;
+  font-size: 0.1rem;
+  border-radius: 50%;
+}
+
+.banner {
+  min-height: calc(100vh - 101px);
+  background: url(../img/pageBcg/bannerBcg.jpeg) center/cover fixed no-repeat;
+}
+
+.btn {
+  font-size: 1.2rem !important;
+  border-radius: 0 !important;
+}
+
+.service-icon {
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fdbe02;
+  background-color: #9b9999;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+}
+
+.all-categories-link {
+  color: #071013;
+  text-decoration: none;
+}
+
+.all-categories-link:hover {
+  color: #9b9999;
+  text-decoration: none;
+}
+
+.categories-underline {
+  height: 0.1rem;
+  width: 5rem;
+  background-color: #fdbe02;
+}
+
+.category-container {
+  position: relative;
+}
+
+.category-img {
+  transition: all 1s linear;
+}
+
+.category-container:hover .category-img {
+  opacity: 0.5;
+}
+
+.category-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 0.2rem 3rem 0.2rem 0.2rem;
+  background-color: white;
+  color: #071013;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+  opacity: 0;
+  transition: all 1s linear;
+  text-decoration: none !important;
+}
+
+.category-link:hover {
+  color: #9b9999;
+}
+
+.category-container:hover .category-link {
+  opacity: 1;
+}
+
+.home-filler {
+  min-height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/home-filler.jpeg) center/cover fixed no-repeat;
+}
+
+.collection-link {
+  color: #fdbe02;
+  text-decoration: none;
+}
+
+.collection-link:hover {
+  color: #9b9999;
+  text-decoration: none;
+}
+
+.collection-underline {
+  height: 0.1rem;
+  width: 5rem;
+  background-color: #fdbe02;
+  margin: 0 auto;
+}
+
+.featured-container {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-search-icon {
+  background-color: white;
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  font-size: 1.2rem;
+  transform: translateX(110%);
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.featured-container:hover .featured-search-icon {
+  transform: translateX(0%);
+}
+
+.featured-store-link {
+  background-color: #fdbe02;
+  color: #071013;
+  padding: 0.2rem 0.4rem;
+  position: absolute;
+  right: 0;
+  top: 70%;
+  transform: translateX(110%);
+  transition: all 1s ease-in-out;
+}
+
+.featured-container:hover .featured-store-link {
+  transform: translateX(0%);
+}
+
+.featured-store-link:hover {
+  color: #071013;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+#partners {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev {
+  font-size: 2.5rem;
+  color: #071013;
+  transform: translateX(-200%);
+}
+
+.carousel-control-next {
+  font-size: 2.5rem;
+  color: #071013;
+  transform: translateX(200%);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-title {
+  border: 0.2rem solid #fdbe02;
+  padding: 0.4rem;
+}
+
+.banner-products {
+  min-height: 60vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/pageBcg/productsBcg.jpeg) center/cover fixed no-repeat;
+}
+
+.product-categories-underline {
+  height: 0.2rem;
+  width: 6rem;
+  background-color: #fdbe02;
+}
+
+.product-categories-link {
+  color: #071013;
+  text-decoration: none !important;
+}
+
+.product-categories-link:hover {
+  color: #9b9999;
+}
+
+.products-color {
+  width: 1rem;
+  height: 1rem;
+}
+
+.products-color-black {
+  background-color: black;
+}
+
+.products-color-red {
+  background-color: red;
+}
+
+.products-color-blue {
+  background-color: blue;
+}
+
+.products-color-green {
+  background-color: green;
+}
+
+.products-color-yellow {
+  background-color: yellow;
+}
+
+.banner-single-product {
+  min-height: 60vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/pageBcg/singleBcg.jpeg) center/cover fixed no-repeat;
+}
+
+.single-product-pic {
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0.5;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  border: 0.1rem solid transparent;
+}
+
+.single-product-pic:hover {
+  border-color: #fdbe02;
+  opacity: 1;
+}
+
+.product-info-link {
+  color: #9b9999;
+  text-decoration: none !important;
+}
+
+.product-info-link:hover {
+  color: #fdbe02;
+}
+
+.banner-store {
+  min-height: 60vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/pageBcg/storeBcg.jpeg) center/cover fixed no-repeat;
+}
+
+.black-hover:hover {
+  color: #fdbe02;
+  background-color: #071013;
+  border-color: #071013;
+}
+
+.white-hover:hover {
+  color: white !important;
+}
+
+.yelllow1-hover:hover {
+  color: #fdbe02;
+}
+
+.text-white-hover:hover {
+  color: white;
+  background-color: #071013;
+  border-color: #071013;
+}
+
+.big-font {
+  font-size: 3.5rem;
+}
+
+.box-shadow {
+  transition: all 0.3 linear;
+}
+
+.box-shadow:hover {
+  box-shadow: 0 10px 15px black;
+}
+
+/* These codes are for navbar 
+.nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background-color: #ffffff;
+}
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+.nav-item.active {
+  border-left: #444 3px solid;
+} */
+/* These codes are for OVERLAY
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+} */
+/* These codes for video
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/media.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: white;
+}
+#video-play a {
+  color: white;
+} */
